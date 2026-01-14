@@ -14,10 +14,6 @@ public class Foo implements IFoo {
         this.baz = baz;
     }
 
-    public void doSomethingLikeAFoo() {
-        
-    }
-
     public IBaz getBaz() {
         return baz;
     }

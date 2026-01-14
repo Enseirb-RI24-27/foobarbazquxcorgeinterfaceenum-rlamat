@@ -1,13 +1,13 @@
 package com.jad;
 
-public class Corge {
+public class Corge implements ICorge{
     private IFoo foo;
 
-    public void setIFoo(IFoo foo) {
+    public void setFoo(IFoo foo) {
         this.foo = foo;
     }
 
-    public IFoo getIFoo() {
+    public IFoo getFoo() {
         return this.foo;
     }
 }
